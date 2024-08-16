@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Installing dependencies (Simulating)
-      run: echo "Dependencies Installed."
+      run: echo "Dependencies Installed"
 
     - name: Executing Test (Simulating)
       run: echo "Passed"
