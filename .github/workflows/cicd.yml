@@ -6,7 +6,7 @@ on:
       - main
 
 concurrency:
-  group: 'deploy'  # This can be any unique identifier for your workflow group
+  group: 'deploy'  # This can be any unique identifier for your workflow group: Ready
   cancel-in-progress: true
 
 jobs:
